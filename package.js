@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'pauli:accounts-linkedin',
+  name: 'beetee2:accounts-linkedin',
   summary: "Accounts service for LinkedIn accounts",
   version: "1.1.2",
-  git: "https://github.com/PauliBuccini/meteor-accounts-linkedin.git"
+  git: "https://github.com/beetee2/meteor-accounts-linkedin.git"
 });
 
 Package.onUse(function(api) {
@@ -12,7 +12,7 @@ Package.onUse(function(api) {
   api.imply('accounts-base', ['client', 'server']);
 
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('pauli:linkedin@1.1.2', ['client', 'server']);
+  api.use('beetee2:linkedin@1.1.2', ['client', 'server']);
 
   api.addFiles(['linkedin_login_button.css'], 'client');
   api.addFiles('linkedin_common.js', ['client', 'server']);
