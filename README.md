@@ -9,11 +9,11 @@ Package Dependencies
 
 * accounts-base
 * accounts-oauth
-* pauli:linkedin
+* beetee2:linkedin
 
 Install
 -----------
 ```
-meteor add pauli:accounts-linkedin
+meteor add beetee2:accounts-linkedin
 ```
 
